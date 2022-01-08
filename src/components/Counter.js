@@ -13,7 +13,6 @@ const Counter = () => {
   function increaseHandler() {
     dispatch({ type: "increase", amount: 5 });
   }
-
   function decrementHandler() {
     dispatch({ type: "decrement" });
   }
